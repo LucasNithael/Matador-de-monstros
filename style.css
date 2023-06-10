@@ -106,3 +106,41 @@
     background-color: #BBB;
     color: black;
 }
+
+
+/*Logs*/
+
+
+
+.logs > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 4px 0;
+    padding: 3px 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.player{
+    background-color: #4253afaa;
+    color: white;
+}
+
+.monster{
+    background-color: #e51c23aa;
+    color: white;
+}
